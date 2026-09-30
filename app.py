@@ -63,8 +63,16 @@ class BatchWavTrimmerApp:
         self.btn_dest.pack(side=LEFT)
 
         # Action Button & Status
-        self.btn_process = tb.Button(self.root, text="TRIM FILES", command=self.start_processing_thread, bootstyle=(SUCCESS, OUTLINE), width=30)
-        self.btn_process.pack(pady=20)
+        self.btn_process = tb.Button(
+            self.root, 
+            text="TRIM FILES", 
+            command=self.start_processing_thread, 
+            bootstyle=(SUCCESS, OUTLINE)
+        )
+        # fill=X makes it expand horizontally
+        # padx=20 aligns its edges with the frames above it
+        # ipady=15 keeps the button physically taller
+        self.btn_process.pack(fill=X, padx=20, pady=20, ipady=15) 
         
         self.lbl_status = tb.Label(self.root, text="", font=("Arial", 10, "bold"))
         self.lbl_status.pack()
