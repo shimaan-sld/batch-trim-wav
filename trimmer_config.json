@@ -3,6 +3,12 @@
     "threshold": "-96.0",
     "fade_in": "5.0",
     "fade_out": "50.0",
-    "dest_folder": "",
-    "geometry": "600x480+2637+738"
+    "dest_folder": "C:/Users/sonol/Downloads/260826_L50_Player-Male_DenoiseSubmit_286file/\u906d\u9047\u3001\u6311\u6226\u3001\u9a12\u4e71/Trimmed",
+    "overwrite": true,
+    "geometry": [
+        2083,
+        870,
+        600,
+        500
+    ]
 }
